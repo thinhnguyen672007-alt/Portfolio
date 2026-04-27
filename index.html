@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Web Developer</title>
+    <meta name="description" content="Portfolio showcasing my technical skills and soft skills.">
+    
+    <!-- Google Fonts: Outfit for Headings, Inter for Body Text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mouse-glow"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#soft-skills">Soft Skills</a></li>
+            <li><a href="#hard-skills">Hard Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="container hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Nguyễn Vũ Đức Thịnh</span></h1>
+            <p class="hero-subtitle">Student at <strong>National Economics University</strong> (Born in 2007).<br>I build beautiful web experiences, blending technical expertise with strong communication and teamwork.</p>
+            <div class="hero-actions">
+                <a href="#hard-skills" class="btn-primary">View My Work</a>
+                <a href="#soft-skills" class="btn-secondary">Get to Know Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Soft Skills Section (About) -->
+    <section id="soft-skills" class="section soft-skills-section">
+        <div class="container">
+            <h2 class="section-title">Beyond the Code: <span>Soft Skills</span></h2>
+            <p class="section-desc">Great projects require more than just technical ability. Here is how I collaborate and operate in a team.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card glass-panel">
+                    <div class="skill-icon">💬</div>
+                    <h3>Communication</h3>
+                    <p>I articulate complex technical concepts to non-technical stakeholders clearly and effectively.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <div class="skill-icon">🤝</div>
+                    <h3>Teamwork</h3>
+                    <p>I thrive in collaborative environments, actively participating in code reviews and agile processes.</p>
+                </div>
+                <div class="skill-card glass-panel">
+                    <div class="skill-icon">🧩</div>
+                    <h3>Problem Solving</h3>
+                    <p>I approach challenges methodically, breaking down large problems into manageable, solvable pieces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hard Skills Section -->
+    <section id="hard-skills" class="section hard-skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Expertise: <span>Hard Skills</span></h2>
+            <p class="section-desc">The tools and technologies I use to bring ideas to life.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card glass-panel">
+                    <h3>Frontend</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                    </ul>
+                </div>
+                <div class="skill-card glass-panel">
+                    <h3>Backend & Database</h3>
+                    <ul class="skill-list">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-card glass-panel">
+                    <h3>Tools & Deployment</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Postman</li>
+                        <li>Aiven (Database)</li>
+                        <li>Render (Hosting)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <p class="section-desc">Here are some of the things I've built.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card glass-panel project-card">
+                    <h3>Daily Activity Tracker</h3>
+                    <p style="margin-bottom: 1rem;">A full-stack web application to track daily activities. Users can manage their tasks through a functional interface that connects to a robust backend. Deployed using Aiven and Render.</p>
+                    <div class="tech-stack" style="margin-bottom: 1.5rem;">
+                        <span>HTML</span><span>CSS</span><span>JS</span><span>Node.js</span><span>Express.js</span><span>MySQL</span>
+                    </div>
+                    <a href="https://daily-tracker-fikj.onrender.com/" target="_blank" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Live Website</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in <span>Touch</span></h2>
+            <p class="section-desc">Feel free to reach out to me for collaborations or just a friendly chat.</p>
+            
+            <div class="contact-grid">
+                <a href="mailto:thinhnguyen672007@gmail.com" class="glass-panel contact-card">
+                    <div class="skill-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>thinhnguyen672007@gmail.com</p>
+                </a>
+                <div class="glass-panel contact-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Phone</h3>
+                    <p>0978364189</p>
+                </div>
+                <a href="https://github.com/thinhnguyen672007-alt" target="_blank" class="glass-panel contact-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <p>thinhnguyen672007-alt</p>
+                </a>
+                <a href="https://www.facebook.com/ucthinh.147457/" target="_blank" class="glass-panel contact-card">
+                    <div class="skill-icon">📘</div>
+                    <h3>Facebook</h3>
+                    <p>Nguyễn Vũ Đức Thịnh</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
